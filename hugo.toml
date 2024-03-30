@@ -1,4 +1,4 @@
-# baseURL = "https://your_domain.com/"
+baseURL = "https://lukerand.com/"
 languageCode = "en"
 defaultContentLanguage = "en"
 
@@ -8,14 +8,17 @@ title = "Luke Rand"
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 
-[params.author]
+[author]
   name = "Luke Rand"
   headline = "Site Reliability Engineer | Homelab Enthusiast | Film Photographer"
   image = "img/author.jpg"  # path relative to static directory
 
   links = [
+    { link = {href = "https://blog.lukerand.com", text = "My Blog"}},
+    { github = "https://github.com/luke-rand" },
+    { linkedin = "https://linkedin.com/in/lukerand" },
+    { instagram = "https://instagram.com/justlukerand" },
     # { email = "mailto:hello@your_domain.com" },
-    # { link = "https://link-to-some-website.com/" },
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
     # { apple = "https://www.apple.com" },
     # { codepen = "https://codepen.io/username" },
@@ -25,14 +28,11 @@ disableKinds = ["taxonomy", "term"]
     # { facebook = "https://facebook.com/username" },
     # { flickr = "https://www.flickr.com/photos/username/" },
     # { foursquare = "https://foursquare.com/username" },
-    { github = "https://github.com/luke-rand" },
     # { gitlab = "https://gitlab.com/username" },
     # { google = "https://www.google.com/" },
-    # { instagram = "https://instagram.com/username" },
     # { keybase = "https://keybase.io/username" },
     # { kickstarter = "https://www.kickstarter.com/profile/username" },
     # { lastfm = "https://last.fm/user/username" },
-    # { linkedin = "https://linkedin.com/in/username" },
     # { mastodon = "https://mastodon.instance/@username" },
     # { medium = "https://medium.com/username" },
     # { microsoft = "https://www.microsoft.com/" },
